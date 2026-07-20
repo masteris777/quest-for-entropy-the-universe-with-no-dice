@@ -1,0 +1,100 @@
+{
+  "lab": "101c",
+  "stream": "cryptographic-substrate",
+  "kind": "hardened-simulation-addendum",
+  "stageA": {
+    "A1_mborn_pass": true,
+    "A2_pool_pass": true,
+    "A3_screening_pass": true,
+    "screening_table": [
+      {
+        "seed": 30000,
+        "value": 0.9804471267608559,
+        "in_range": false
+      },
+      {
+        "seed": 30001,
+        "value": 0.9628565046268213,
+        "in_range": true
+      }
+    ],
+    "frame_star": 30001,
+    "screened_value": 0.9628565046268213
+  },
+  "cell": {
+    "cell": [
+      1,
+      30001
+    ],
+    "theta": [
+      1.1849168820292264,
+      0.726131766116032,
+      0.5089530801644164,
+      0.5493984432881438,
+      0.4933878791216486,
+      0.6869990425725032
+    ],
+    "D_insample": 0.0010473056211722231,
+    "D_heldout": 0.001712650375809248,
+    "variational_gap": false,
+    "calibration": {
+      "D_born_cal": 0.0019751848391917,
+      "markov_floor": 0.008272719042678317,
+      "pass": true
+    },
+    "main": {
+      "D_born": 0.002045526745639868,
+      "markov_score": 0.0068970349080643145,
+      "J": 0.0068970349080643145,
+      "occupancies": [
+        0.34088235294117647,
+        0.3271764705882353,
+        0.33194117647058824
+      ],
+      "degenerate": false,
+      "markov_to_floor_ratio": 0.8337083457667359
+    },
+    "controls": {
+      "C-passive": {
+        "D_born": 0.9632180322886263,
+        "J_main_60k": 0.012511129471918209,
+        "ratio": 76.98889492356484,
+        "bar": 5.0,
+        "pass": true,
+        "screened_value_T20k": 0.9628565046268213
+      },
+      "C-isotropic": {
+        "J": 0.584741519598122,
+        "bar": 0.06,
+        "pass": true
+      },
+      "C-shuffled": {
+        "J": 0.8558482516739085,
+        "bar": 0.06,
+        "pass": true
+      }
+    },
+    "bridge": {
+      "J_mc": 0.011494647876257535,
+      "J_main_60k": 0.012511129471918209,
+      "delta": 0.0010164815956606732,
+      "bar": 0.02,
+      "pass": true
+    },
+    "ridge": {
+      "r2": -0.0005520870800941324,
+      "n_samples": 40565
+    }
+  },
+  "verdict": "CELL-RESTORED",
+  "verdict_reason": "J=0.00690 < 0.06; C-passive ratio=76.99 >= 5.0; C-isotropic J=0.58474 and C-shuffled J=0.85585 both > 0.06; bridge delta=0.00102 < 0.02. The 6/6 fresh-cell battery is complete.",
+  "leakage_audit": {
+    "wrote_outside_lab_folder": false,
+    "theta_reused": false,
+    "pool_modified": false,
+    "random_draws_inside_world": false,
+    "emergence_language_used": false,
+    "posthoc_threshold_change": false,
+    "metrics_hand_edited": false
+  }
+}

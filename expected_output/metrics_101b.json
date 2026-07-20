@@ -1,0 +1,128 @@
+{
+  "lab": "101b",
+  "stream": "cryptographic-substrate",
+  "kind": "hardened-simulation-addendum",
+  "stageA": {
+    "ratios": [
+      {
+        "cell": [
+          1,
+          7
+        ],
+        "passive_D_born": 0.9641687038391566,
+        "J_main": 0.010156831033737636,
+        "ratio": 94.92810312946104
+      },
+      {
+        "cell": [
+          1,
+          42
+        ],
+        "passive_D_born": 0.29804747347145133,
+        "J_main": 0.01501096369558974,
+        "ratio": 19.85531905316768
+      },
+      {
+        "cell": [
+          1,
+          555
+        ],
+        "passive_D_born": 0.3782995035546031,
+        "J_main": 0.013174214824767674,
+        "ratio": 28.715146108244397
+      },
+      {
+        "cell": [
+          2,
+          11
+        ],
+        "passive_D_born": 0.3535786445448271,
+        "J_main": 0.012623479545217642,
+        "ratio": 28.00960252506442
+      },
+      {
+        "cell": [
+          2,
+          17
+        ],
+        "passive_D_born": 0.33429209090949413,
+        "J_main": 0.006849890524250224,
+        "ratio": 48.8025450517817
+      },
+      {
+        "cell": [
+          2,
+          23
+        ],
+        "passive_D_born": 0.19933010633068374,
+        "J_main": 0.014780934944401802,
+        "ratio": 13.485622329065112
+      }
+    ],
+    "R1_holds": true,
+    "max_disagreement_with_analyst": 0.09039747493558181,
+    "regression": {
+      "D_born_1_7_T20k": 0.9641687038391566,
+      "stored_T60k": 0.9641687038391566,
+      "dev": 0.0,
+      "pass": true
+    },
+    "pass": true
+  },
+  "stageB": {
+    "null_percentiles": {
+      "W1": {
+        "min": 0.23675190275911995,
+        "p5": 0.3576140862664383,
+        "p25": 0.49999999999999933,
+        "p50": 0.5850357759255451,
+        "p75": 0.8234953699714727,
+        "p95": 0.9635162137534683,
+        "max": 0.9998753261741387
+      },
+      "W2": {
+        "min": 0.1400133874641549,
+        "p5": 0.161035039161031,
+        "p25": 0.20324294796162606,
+        "p50": 0.2532024486889697,
+        "p75": 0.37598638173785354,
+        "p95": 0.6049945581582226,
+        "max": 0.9918093604519959
+      }
+    },
+    "flagged_placements": {
+      "W1_frame42": {
+        "cell": [
+          1,
+          42
+        ],
+        "value_T20k": 0.29732713784292375,
+        "p5": 0.3576140862664383,
+        "placement_ok": false
+      },
+      "W2_frame23": {
+        "cell": [
+          2,
+          23
+        ],
+        "value_T20k": 0.19913961769350333,
+        "p5": 0.161035039161031,
+        "placement_ok": true
+      }
+    },
+    "R2_holds": false,
+    "r3": {
+      "w1_median": 0.5850357759255451,
+      "w2_median": 0.2532024486889697,
+      "prediction_w2_lt_w1_confirmed": true
+    }
+  },
+  "verdict": "CONTROL-REAL",
+  "verdict_reason": "W1 frame42 (0.29733) sits below its world's 5th percentile (0.35761)",
+  "leakage_audit": {
+    "wrote_outside_lab_folder": false,
+    "touched_lab101_files": false,
+    "posthoc_threshold_change": false,
+    "metrics_hand_edited": false
+  }
+}

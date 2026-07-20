@@ -1,0 +1,1366 @@
+{
+  "lab": 94,
+  "stream": "cryptographic-substrate",
+  "kind": "scout",
+  "serves_node": "born_rule_emergence",
+  "stageA": {
+    "anchor": {
+      "D_born": 0.08467994307615925,
+      "markov_score": 0.23068951614247057,
+      "pass": true
+    },
+    "calibration": {
+      "kernel_max_dev": 0.004652463741542379,
+      "markov_floors": {
+        "91": 0.008485022465293146,
+        "93": 0.01298677230116474,
+        "201": 0.013744486694806879
+      },
+      "pass": true
+    },
+    "tape_roundtrip": {
+      "qpgen_max_err": 9.550499576785472e-16,
+      "catgen_max_err": 4.965068306494546e-16,
+      "pass": true
+    },
+    "pass": true
+  },
+  "stageB": {
+    "baselines": [
+      {
+        "frame": 91,
+        "D_born_g0": 0.46749708158374703,
+        "markov_g0": 0.5149489562331735
+      },
+      {
+        "frame": 93,
+        "D_born_g0": 0.42010588158885176,
+        "markov_g0": 0.42681150952906677
+      },
+      {
+        "frame": 201,
+        "D_born_g0": 0.9508948435091804,
+        "markov_g0": 0.28390139433154105
+      }
+    ],
+    "cells": [
+      {
+        "variant": "R-QP3",
+        "frame": 91,
+        "g": 0.2,
+        "degenerate": false,
+        "occupancies": [
+          0.29715254237288136,
+          0.40103389830508474,
+          0.3018135593220339
+        ],
+        "max_occupancy": 0.40103389830508474,
+        "D_born": 0.1745715244078228,
+        "D_classical": 0.29292555717592417,
+        "markov_score": 0.48488412366449807,
+        "mean_norm_z": 1.230958229478144
+      },
+      {
+        "variant": "R-QP3",
+        "frame": 91,
+        "g": 0.35,
+        "degenerate": false,
+        "occupancies": [
+          0.3029661016949153,
+          0.37410169491525425,
+          0.32293220338983053
+        ],
+        "max_occupancy": 0.37410169491525425,
+        "D_born": 0.1336808086374668,
+        "D_classical": 0.3773069001549707,
+        "markov_score": 0.3994208978563941,
+        "mean_norm_z": 1.181515134307592
+      },
+      {
+        "variant": "R-QP3",
+        "frame": 91,
+        "g": 0.5,
+        "degenerate": false,
+        "occupancies": [
+          0.31533898305084745,
+          0.35559322033898305,
+          0.3290677966101695
+        ],
+        "max_occupancy": 0.35559322033898305,
+        "D_born": 0.11848880257848952,
+        "D_classical": 0.3970703650144247,
+        "markov_score": 0.34419782564697876,
+        "mean_norm_z": 1.1557766976256023
+      },
+      {
+        "variant": "R-QP3",
+        "frame": 91,
+        "g": 0.65,
+        "degenerate": false,
+        "occupancies": [
+          0.3149152542372881,
+          0.3554406779661017,
+          0.32964406779661015
+        ],
+        "max_occupancy": 0.3554406779661017,
+        "D_born": 0.11341698634565746,
+        "D_classical": 0.41463329811511407,
+        "markov_score": 0.3095471862203785,
+        "mean_norm_z": 1.1451656276887394
+      },
+      {
+        "variant": "R-QP3",
+        "frame": 91,
+        "g": 0.7853981634,
+        "degenerate": false,
+        "occupancies": [
+          0.3214406779661017,
+          0.3546949152542373,
+          0.323864406779661
+        ],
+        "max_occupancy": 0.3546949152542373,
+        "D_born": 0.10111862471013656,
+        "D_classical": 0.42604938972779205,
+        "markov_score": 0.26203904526260857,
+        "mean_norm_z": 1.1426949284336307
+      },
+      {
+        "variant": "R-QP3",
+        "frame": 91,
+        "g": 0.9,
+        "degenerate": false,
+        "occupancies": [
+          0.3183050847457627,
+          0.35650847457627116,
+          0.3251864406779661
+        ],
+        "max_occupancy": 0.35650847457627116,
+        "D_born": 0.10574335099393886,
+        "D_classical": 0.4186109270191599,
+        "markov_score": 0.22992729220902644,
+        "mean_norm_z": 1.1345601963374945
+      },
+      {
+        "variant": "R-QP3",
+        "frame": 91,
+        "g": 1.0,
+        "degenerate": false,
+        "occupancies": [
+          0.31964406779661014,
+          0.35215254237288135,
+          0.32820338983050845
+        ],
+        "max_occupancy": 0.35215254237288135,
+        "D_born": 0.09470498325387856,
+        "D_classical": 0.4199828328957804,
+        "markov_score": 0.19281020551676598,
+        "mean_norm_z": 1.129145127440043
+      },
+      {
+        "variant": "R-QP3",
+        "frame": 91,
+        "g": 1.15,
+        "degenerate": false,
+        "occupancies": [
+          0.08020338983050848,
+          0.8346779661016949,
+          0.08511864406779661
+        ],
+        "max_occupancy": 0.8346779661016949,
+        "D_born": 0.4131410948993227,
+        "D_classical": 0.5551637737984789,
+        "markov_score": 0.4885338561489213,
+        "mean_norm_z": 1.102593947008941
+      },
+      {
+        "variant": "R-QP3",
+        "frame": 93,
+        "g": 0.2,
+        "degenerate": false,
+        "occupancies": [
+          0.3656779661016949,
+          0.531271186440678,
+          0.10305084745762712
+        ],
+        "max_occupancy": 0.531271186440678,
+        "D_born": 0.2077534357725287,
+        "D_classical": 0.2690460845372402,
+        "markov_score": 0.40651110538367813,
+        "mean_norm_z": 1.2723526477746134
+      },
+      {
+        "variant": "R-QP3",
+        "frame": 93,
+        "g": 0.35,
+        "degenerate": false,
+        "occupancies": [
+          0.3364237288135593,
+          0.38398305084745765,
+          0.27959322033898304
+        ],
+        "max_occupancy": 0.38398305084745765,
+        "D_born": 0.1260952123356995,
+        "D_classical": 0.2940106692531522,
+        "markov_score": 0.2812546938649967,
+        "mean_norm_z": 1.1725324751754456
+      },
+      {
+        "variant": "R-QP3",
+        "frame": 93,
+        "g": 0.5,
+        "degenerate": false,
+        "occupancies": [
+          0.33520338983050846,
+          0.349135593220339,
+          0.31566101694915255
+        ],
+        "max_occupancy": 0.349135593220339,
+        "D_born": 0.1486802980463664,
+        "D_classical": 0.27142558354248536,
+        "markov_score": 0.24174663394513154,
+        "mean_norm_z": 1.1305813852417508
+      },
+      {
+        "variant": "R-QP3",
+        "frame": 93,
+        "g": 0.65,
+        "degenerate": false,
+        "occupancies": [
+          0.33077966101694917,
+          0.29523728813559325,
+          0.37398305084745764
+        ],
+        "max_occupancy": 0.37398305084745764,
+        "D_born": 0.14507573928281148,
+        "D_classical": 0.3476691271028657,
+        "markov_score": 0.22319600865231431,
+        "mean_norm_z": 1.1291735018545013
+      },
+      {
+        "variant": "R-QP3",
+        "frame": 93,
+        "g": 0.7853981634,
+        "degenerate": false,
+        "occupancies": [
+          0.34191525423728814,
+          0.2970847457627119,
+          0.361
+        ],
+        "max_occupancy": 0.361,
+        "D_born": 0.152699687480794,
+        "D_classical": 0.35069457742423027,
+        "markov_score": 0.16201864904775798,
+        "mean_norm_z": 1.127373174816896
+      },
+      {
+        "variant": "R-QP3",
+        "frame": 93,
+        "g": 0.9,
+        "degenerate": false,
+        "occupancies": [
+          0.26976271186440676,
+          0.46952542372881356,
+          0.2607118644067797
+        ],
+        "max_occupancy": 0.46952542372881356,
+        "D_born": 0.06650689257958686,
+        "D_classical": 0.3535989890092649,
+        "markov_score": 0.2457357276997295,
+        "mean_norm_z": 1.1289460316111777
+      },
+      {
+        "variant": "R-QP3",
+        "frame": 93,
+        "g": 1.0,
+        "degenerate": true,
+        "occupancies": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "max_occupancy": 1.0,
+        "D_born": 0.5000000000000009,
+        "D_classical": 0.6917434529582929,
+        "markov_score": 0.0,
+        "mean_norm_z": 1.1397506603693532
+      },
+      {
+        "variant": "R-QP3",
+        "frame": 93,
+        "g": 1.15,
+        "degenerate": false,
+        "occupancies": [
+          0.0691864406779661,
+          0.1949322033898305,
+          0.7358813559322034
+        ],
+        "max_occupancy": 0.7358813559322034,
+        "D_born": 0.24335306796055958,
+        "D_classical": 0.6634589495494114,
+        "markov_score": 0.6297793735161341,
+        "mean_norm_z": 1.1650693523928701
+      },
+      {
+        "variant": "R-QP3",
+        "frame": 201,
+        "g": 0.2,
+        "degenerate": false,
+        "occupancies": [
+          0.7647966101694915,
+          0.10845762711864407,
+          0.1267457627118644
+        ],
+        "max_occupancy": 0.7647966101694915,
+        "D_born": 0.2142861207420314,
+        "D_classical": 0.8590404750742303,
+        "markov_score": 0.581821249996288,
+        "mean_norm_z": 1.3005639141703866
+      },
+      {
+        "variant": "R-QP3",
+        "frame": 201,
+        "g": 0.35,
+        "degenerate": false,
+        "occupancies": [
+          0.16398305084745762,
+          0.7794237288135594,
+          0.05659322033898305
+        ],
+        "max_occupancy": 0.7794237288135594,
+        "D_born": 0.2176595101891004,
+        "D_classical": 0.9902794389474828,
+        "markov_score": 0.6870935025143025,
+        "mean_norm_z": 1.1546795364137719
+      },
+      {
+        "variant": "R-QP3",
+        "frame": 201,
+        "g": 0.5,
+        "degenerate": true,
+        "occupancies": [
+          6.779661016949152e-05,
+          0.9992542372881356,
+          0.0006779661016949153
+        ],
+        "max_occupancy": 0.9992542372881356,
+        "D_born": 0.5199884629867624,
+        "D_classical": 1.0,
+        "markov_score": 0.3905017803506816,
+        "mean_norm_z": 0.9901554448429087
+      },
+      {
+        "variant": "R-QP3",
+        "frame": 201,
+        "g": 0.65,
+        "degenerate": true,
+        "occupancies": [
+          0.005101694915254237,
+          0.9900338983050847,
+          0.004864406779661017
+        ],
+        "max_occupancy": 0.9900338983050847,
+        "D_born": 0.1307623179650165,
+        "D_classical": 0.9994179178579378,
+        "markov_score": 0.6061380540158148,
+        "mean_norm_z": 1.1383647146941356
+      },
+      {
+        "variant": "R-QP3",
+        "frame": 201,
+        "g": 0.7853981634,
+        "degenerate": true,
+        "occupancies": [
+          0.031254237288135596,
+          0.9208305084745763,
+          0.04791525423728814
+        ],
+        "max_occupancy": 0.9208305084745763,
+        "D_born": 0.2051071299109825,
+        "D_classical": 0.9951222205860697,
+        "markov_score": 0.5209907848071572,
+        "mean_norm_z": 1.2131146327636981
+      },
+      {
+        "variant": "R-QP3",
+        "frame": 201,
+        "g": 0.9,
+        "degenerate": false,
+        "occupancies": [
+          0.11332203389830509,
+          0.7303559322033898,
+          0.1563220338983051
+        ],
+        "max_occupancy": 0.7303559322033898,
+        "D_born": 0.15587858034031227,
+        "D_classical": 0.9792991413320956,
+        "markov_score": 0.3646612874976314,
+        "mean_norm_z": 1.1340307133878533
+      },
+      {
+        "variant": "R-QP3",
+        "frame": 201,
+        "g": 1.0,
+        "degenerate": true,
+        "occupancies": [
+          0.01106779661016949,
+          0.9760338983050847,
+          0.012898305084745763
+        ],
+        "max_occupancy": 0.9760338983050847,
+        "D_born": 0.1454799461802952,
+        "D_classical": 0.9984544586263784,
+        "markov_score": 0.5775739553063589,
+        "mean_norm_z": 1.2097185484987685
+      },
+      {
+        "variant": "R-QP3",
+        "frame": 201,
+        "g": 1.15,
+        "degenerate": true,
+        "occupancies": [
+          0.986135593220339,
+          0.009966101694915254,
+          0.003898305084745763
+        ],
+        "max_occupancy": 0.986135593220339,
+        "D_born": 0.3047342596698383,
+        "D_classical": 0.9421768707482993,
+        "markov_score": 0.8201619119856942,
+        "mean_norm_z": 1.265051203038049
+      },
+      {
+        "variant": "R-QPGEN",
+        "frame": 91,
+        "g": 0.2,
+        "degenerate": false,
+        "occupancies": [
+          0.25913559322033897,
+          0.47067796610169493,
+          0.2701864406779661
+        ],
+        "max_occupancy": 0.47067796610169493,
+        "D_born": 0.581019875291785,
+        "D_classical": 0.18374697278340485,
+        "markov_score": 0.502842318195366,
+        "mean_norm_z": 1.845965050891124
+      },
+      {
+        "variant": "R-QPGEN",
+        "frame": 91,
+        "g": 0.35,
+        "degenerate": false,
+        "occupancies": [
+          0.26733898305084747,
+          0.459135593220339,
+          0.27352542372881355
+        ],
+        "max_occupancy": 0.459135593220339,
+        "D_born": 0.5361477614518229,
+        "D_classical": 0.15017564390844812,
+        "markov_score": 0.501030034200102,
+        "mean_norm_z": 1.752655645504316
+      },
+      {
+        "variant": "R-QPGEN",
+        "frame": 91,
+        "g": 0.5,
+        "degenerate": false,
+        "occupancies": [
+          0.2876271186440678,
+          0.4231186440677966,
+          0.2892542372881356
+        ],
+        "max_occupancy": 0.4231186440677966,
+        "D_born": 0.3324890404680635,
+        "D_classical": 0.13500804111568349,
+        "markov_score": 0.4631477798928563,
+        "mean_norm_z": 1.204082611924838
+      },
+      {
+        "variant": "R-QPGEN",
+        "frame": 91,
+        "g": 0.65,
+        "degenerate": false,
+        "occupancies": [
+          0.3189322033898305,
+          0.3779152542372881,
+          0.30315254237288136
+        ],
+        "max_occupancy": 0.3779152542372881,
+        "D_born": 0.17983807717290273,
+        "D_classical": 0.28765900441084424,
+        "markov_score": 0.38311373528825643,
+        "mean_norm_z": 1.0579020565291104
+      },
+      {
+        "variant": "R-QPGEN",
+        "frame": 91,
+        "g": 0.7853981634,
+        "degenerate": false,
+        "occupancies": [
+          0.33361016949152544,
+          0.31540677966101693,
+          0.3509830508474576
+        ],
+        "max_occupancy": 0.3509830508474576,
+        "D_born": 0.07281944015126345,
+        "D_classical": 0.44830051802038917,
+        "markov_score": 0.32285175185623805,
+        "mean_norm_z": 1.02070660678304
+      },
+      {
+        "variant": "R-QPGEN",
+        "frame": 91,
+        "g": 0.9,
+        "degenerate": false,
+        "occupancies": [
+          0.3445762711864407,
+          0.28735593220338984,
+          0.3680677966101695
+        ],
+        "max_occupancy": 0.3680677966101695,
+        "D_born": 0.12530657473880258,
+        "D_classical": 0.3949013393883565,
+        "markov_score": 0.3428044653129083,
+        "mean_norm_z": 1.0578479522490534
+      },
+      {
+        "variant": "R-QPGEN",
+        "frame": 91,
+        "g": 1.0,
+        "degenerate": false,
+        "occupancies": [
+          0.35259322033898305,
+          0.2498813559322034,
+          0.39752542372881355
+        ],
+        "max_occupancy": 0.39752542372881355,
+        "D_born": 0.17441079867940196,
+        "D_classical": 0.5107253154203337,
+        "markov_score": 0.2947627775675923,
+        "mean_norm_z": 1.0842957456675533
+      },
+      {
+        "variant": "R-QPGEN",
+        "frame": 91,
+        "g": 1.15,
+        "degenerate": false,
+        "occupancies": [
+          0.3351864406779661,
+          0.2713728813559322,
+          0.3934406779661017
+        ],
+        "max_occupancy": 0.3934406779661017,
+        "D_born": 0.12345969450291466,
+        "D_classical": 0.5683173884336588,
+        "markov_score": 0.24209466580532069,
+        "mean_norm_z": 1.1355326390212823
+      },
+      {
+        "variant": "R-QPGEN",
+        "frame": 93,
+        "g": 0.2,
+        "degenerate": true,
+        "occupancies": [
+          0.06122033898305085,
+          0.01752542372881356,
+          0.9212542372881356
+        ],
+        "max_occupancy": 0.9212542372881356,
+        "D_born": 0.44865272045570304,
+        "D_classical": 0.6383885323467351,
+        "markov_score": 0.6038948721377007,
+        "mean_norm_z": 0.646385925545167
+      },
+      {
+        "variant": "R-QPGEN",
+        "frame": 93,
+        "g": 0.35,
+        "degenerate": true,
+        "occupancies": [
+          0.12847457627118644,
+          0.03415254237288136,
+          0.8373728813559322
+        ],
+        "max_occupancy": 0.8373728813559322,
+        "D_born": 0.5344450953183456,
+        "D_classical": 0.56782636122483,
+        "markov_score": 0.4448063416568139,
+        "mean_norm_z": 0.9033158690168944
+      },
+      {
+        "variant": "R-QPGEN",
+        "frame": 93,
+        "g": 0.5,
+        "degenerate": false,
+        "occupancies": [
+          0.1817627118644068,
+          0.08350847457627118,
+          0.7347288135593221
+        ],
+        "max_occupancy": 0.7347288135593221,
+        "D_born": 0.3223550320069017,
+        "D_classical": 0.5219547660523227,
+        "markov_score": 0.3338497582348052,
+        "mean_norm_z": 0.9742375719933822
+      },
+      {
+        "variant": "R-QPGEN",
+        "frame": 93,
+        "g": 0.65,
+        "degenerate": false,
+        "occupancies": [
+          0.35111864406779664,
+          0.3166440677966102,
+          0.3322372881355932
+        ],
+        "max_occupancy": 0.35111864406779664,
+        "D_born": 0.14821754545537266,
+        "D_classical": 0.27188833613347907,
+        "markov_score": 0.2321999062272656,
+        "mean_norm_z": 0.8902599234361123
+      },
+      {
+        "variant": "R-QPGEN",
+        "frame": 93,
+        "g": 0.7853981634,
+        "degenerate": false,
+        "occupancies": [
+          0.41927118644067796,
+          0.38393220338983053,
+          0.19679661016949151
+        ],
+        "max_occupancy": 0.41927118644067796,
+        "D_born": 0.20717006486990414,
+        "D_classical": 0.2619634192106958,
+        "markov_score": 0.25359415658052076,
+        "mean_norm_z": 0.8842097296049405
+      },
+      {
+        "variant": "R-QPGEN",
+        "frame": 93,
+        "g": 0.9,
+        "degenerate": false,
+        "occupancies": [
+          0.40203389830508474,
+          0.3856271186440678,
+          0.21233898305084745
+        ],
+        "max_occupancy": 0.40203389830508474,
+        "D_born": 0.1897635633524206,
+        "D_classical": 0.26839525412069437,
+        "markov_score": 0.29586765702311807,
+        "mean_norm_z": 0.9638108750245602
+      },
+      {
+        "variant": "R-QPGEN",
+        "frame": 93,
+        "g": 1.0,
+        "degenerate": false,
+        "occupancies": [
+          0.4072203389830508,
+          0.37510169491525425,
+          0.2176779661016949
+        ],
+        "max_occupancy": 0.4072203389830508,
+        "D_born": 0.16209979455156812,
+        "D_classical": 0.2850628800654224,
+        "markov_score": 0.32998852995947103,
+        "mean_norm_z": 1.0235115138476145
+      },
+      {
+        "variant": "R-QPGEN",
+        "frame": 93,
+        "g": 1.15,
+        "degenerate": false,
+        "occupancies": [
+          0.38581355932203387,
+          0.3384915254237288,
+          0.2756949152542373
+        ],
+        "max_occupancy": 0.38581355932203387,
+        "D_born": 0.06083315672988661,
+        "D_classical": 0.36984501449770024,
+        "markov_score": 0.3187007123563046,
+        "mean_norm_z": 1.156924729019026
+      },
+      {
+        "variant": "R-QPGEN",
+        "frame": 201,
+        "g": 0.2,
+        "degenerate": true,
+        "occupancies": [
+          0.017169491525423727,
+          0.6005084745762712,
+          0.3823220338983051
+        ],
+        "max_occupancy": 0.6005084745762712,
+        "D_born": 0.24086105047313047,
+        "D_classical": 0.9969517358171041,
+        "markov_score": 0.4200966896065084,
+        "mean_norm_z": 0.6415275744495791
+      },
+      {
+        "variant": "R-QPGEN",
+        "frame": 201,
+        "g": 0.35,
+        "degenerate": false,
+        "occupancies": [
+          0.23228813559322034,
+          0.4147627118644068,
+          0.35294915254237286
+        ],
+        "max_occupancy": 0.4147627118644068,
+        "D_born": 0.17665786544040124,
+        "D_classical": 0.9626905316497079,
+        "markov_score": 0.4353582136133054,
+        "mean_norm_z": 0.7438575893478571
+      },
+      {
+        "variant": "R-QPGEN",
+        "frame": 201,
+        "g": 0.5,
+        "degenerate": false,
+        "occupancies": [
+          0.7694406779661017,
+          0.10508474576271186,
+          0.12547457627118644
+        ],
+        "max_occupancy": 0.7694406779661017,
+        "D_born": 0.34335194796257895,
+        "D_classical": 0.6501612903225807,
+        "markov_score": 0.41958832900122495,
+        "mean_norm_z": 0.7627996519681417
+      },
+      {
+        "variant": "R-QPGEN",
+        "frame": 201,
+        "g": 0.65,
+        "degenerate": false,
+        "occupancies": [
+          0.7225932203389831,
+          0.11628813559322033,
+          0.1611186440677966
+        ],
+        "max_occupancy": 0.7225932203389831,
+        "D_born": 0.4440231564293218,
+        "D_classical": 0.5080891998250984,
+        "markov_score": 0.20331457298926198,
+        "mean_norm_z": 0.8384555008742416
+      },
+      {
+        "variant": "R-QPGEN",
+        "frame": 201,
+        "g": 0.7853981634,
+        "degenerate": false,
+        "occupancies": [
+          0.6835593220338984,
+          0.13728813559322034,
+          0.17915254237288136
+        ],
+        "max_occupancy": 0.6835593220338984,
+        "D_born": 0.5532405225215261,
+        "D_classical": 0.3976543209876543,
+        "markov_score": 0.3784080540197192,
+        "mean_norm_z": 0.9332764607276302
+      },
+      {
+        "variant": "R-QPGEN",
+        "frame": 201,
+        "g": 0.9,
+        "degenerate": false,
+        "occupancies": [
+          0.6299491525423729,
+          0.13732203389830508,
+          0.23272881355932204
+        ],
+        "max_occupancy": 0.6299491525423729,
+        "D_born": 0.44908259192942107,
+        "D_classical": 0.5030856578622562,
+        "markov_score": 0.2952337849876612,
+        "mean_norm_z": 0.9787429164154205
+      },
+      {
+        "variant": "R-QPGEN",
+        "frame": 201,
+        "g": 1.0,
+        "degenerate": false,
+        "occupancies": [
+          0.5273389830508475,
+          0.16322033898305086,
+          0.3094406779661017
+        ],
+        "max_occupancy": 0.5273389830508475,
+        "D_born": 0.38624813930013296,
+        "D_classical": 0.6438213914849429,
+        "markov_score": 0.26285136781612806,
+        "mean_norm_z": 1.0301712790998956
+      },
+      {
+        "variant": "R-QPGEN",
+        "frame": 201,
+        "g": 1.15,
+        "degenerate": false,
+        "occupancies": [
+          0.42289830508474574,
+          0.165135593220339,
+          0.41196610169491527
+        ],
+        "max_occupancy": 0.42289830508474574,
+        "D_born": 0.37202490753984363,
+        "D_classical": 0.7236990659960998,
+        "markov_score": 0.275901680289251,
+        "mean_norm_z": 1.1242295047544832
+      },
+      {
+        "variant": "R-CATGEN",
+        "frame": 91,
+        "g": 0.2,
+        "degenerate": false,
+        "occupancies": [
+          0.332,
+          0.3309830508474576,
+          0.3370169491525424
+        ],
+        "max_occupancy": 0.3370169491525424,
+        "D_born": 0.1118948931183609,
+        "D_classical": 0.40298266189935306,
+        "markov_score": 0.3989629868217457,
+        "mean_norm_z": 1.30202432007976
+      },
+      {
+        "variant": "R-CATGEN",
+        "frame": 91,
+        "g": 0.35,
+        "degenerate": false,
+        "occupancies": [
+          0.3298135593220339,
+          0.3268813559322034,
+          0.3433050847457627
+        ],
+        "max_occupancy": 0.3433050847457627,
+        "D_born": 0.11193909922138182,
+        "D_classical": 0.4176132363379843,
+        "markov_score": 0.34547506689691826,
+        "mean_norm_z": 1.299826041661539
+      },
+      {
+        "variant": "R-CATGEN",
+        "frame": 91,
+        "g": 0.5,
+        "degenerate": false,
+        "occupancies": [
+          0.32628813559322034,
+          0.3164406779661017,
+          0.35727118644067796
+        ],
+        "max_occupancy": 0.35727118644067796,
+        "D_born": 0.11163074276131396,
+        "D_classical": 0.438259628109807,
+        "markov_score": 0.3020660950813203,
+        "mean_norm_z": 1.3042972436623348
+      },
+      {
+        "variant": "R-CATGEN",
+        "frame": 91,
+        "g": 0.65,
+        "degenerate": false,
+        "occupancies": [
+          0.3218305084745763,
+          0.31084745762711863,
+          0.3673220338983051
+        ],
+        "max_occupancy": 0.3673220338983051,
+        "D_born": 0.12268883284414281,
+        "D_classical": 0.44280480285159995,
+        "markov_score": 0.2618122583650686,
+        "mean_norm_z": 1.3016259766258462
+      },
+      {
+        "variant": "R-CATGEN",
+        "frame": 91,
+        "g": 0.7853981634,
+        "degenerate": false,
+        "occupancies": [
+          0.3120508474576271,
+          0.3111694915254237,
+          0.37677966101694915
+        ],
+        "max_occupancy": 0.37677966101694915,
+        "D_born": 0.135451568213017,
+        "D_classical": 0.4431474861602408,
+        "markov_score": 0.2227187240252087,
+        "mean_norm_z": 1.3016753229929472
+      },
+      {
+        "variant": "R-CATGEN",
+        "frame": 91,
+        "g": 0.9,
+        "degenerate": false,
+        "occupancies": [
+          0.3027627118644068,
+          0.31333898305084745,
+          0.38389830508474576
+        ],
+        "max_occupancy": 0.38389830508474576,
+        "D_born": 0.15220120376604646,
+        "D_classical": 0.44730150197935836,
+        "markov_score": 0.18519246502208167,
+        "mean_norm_z": 1.3026420276067328
+      },
+      {
+        "variant": "R-CATGEN",
+        "frame": 91,
+        "g": 1.0,
+        "degenerate": false,
+        "occupancies": [
+          0.2942542372881356,
+          0.3151864406779661,
+          0.3905593220338983
+        ],
+        "max_occupancy": 0.3905593220338983,
+        "D_born": 0.1660931434945917,
+        "D_classical": 0.4497617577580154,
+        "markov_score": 0.15561908046049688,
+        "mean_norm_z": 1.303081788898236
+      },
+      {
+        "variant": "R-CATGEN",
+        "frame": 91,
+        "g": 1.15,
+        "degenerate": false,
+        "occupancies": [
+          0.28511864406779663,
+          0.32245762711864406,
+          0.3924237288135593
+        ],
+        "max_occupancy": 0.3924237288135593,
+        "D_born": 0.18953424731625326,
+        "D_classical": 0.4560538907141083,
+        "markov_score": 0.11460087581256849,
+        "mean_norm_z": 1.3001149790249942
+      },
+      {
+        "variant": "R-CATGEN",
+        "frame": 93,
+        "g": 0.2,
+        "degenerate": false,
+        "occupancies": [
+          0.3315084745762712,
+          0.32428813559322034,
+          0.34420338983050847
+        ],
+        "max_occupancy": 0.34420338983050847,
+        "D_born": 0.14510892672403317,
+        "D_classical": 0.30421144586749127,
+        "markov_score": 0.31054224650731754,
+        "mean_norm_z": 1.2849372700379207
+      },
+      {
+        "variant": "R-CATGEN",
+        "frame": 93,
+        "g": 0.35,
+        "degenerate": false,
+        "occupancies": [
+          0.3424576271186441,
+          0.319271186440678,
+          0.33827118644067794
+        ],
+        "max_occupancy": 0.3424576271186441,
+        "D_born": 0.15225629222561932,
+        "D_classical": 0.3010730451017942,
+        "markov_score": 0.22753737068960966,
+        "mean_norm_z": 1.2994150296091715
+      },
+      {
+        "variant": "R-CATGEN",
+        "frame": 93,
+        "g": 0.5,
+        "degenerate": false,
+        "occupancies": [
+          0.360135593220339,
+          0.31608474576271184,
+          0.32377966101694916
+        ],
+        "max_occupancy": 0.360135593220339,
+        "D_born": 0.16568015204758424,
+        "D_classical": 0.28526279546994027,
+        "markov_score": 0.20717889614989232,
+        "mean_norm_z": 1.2963794658569732
+      },
+      {
+        "variant": "R-CATGEN",
+        "frame": 93,
+        "g": 0.65,
+        "degenerate": false,
+        "occupancies": [
+          0.37740677966101693,
+          0.3096271186440678,
+          0.31296610169491523
+        ],
+        "max_occupancy": 0.37740677966101693,
+        "D_born": 0.17277826899801263,
+        "D_classical": 0.2804788983956067,
+        "markov_score": 0.19525493548351314,
+        "mean_norm_z": 1.300307517130026
+      },
+      {
+        "variant": "R-CATGEN",
+        "frame": 93,
+        "g": 0.7853981634,
+        "degenerate": false,
+        "occupancies": [
+          0.3929491525423729,
+          0.3066949152542373,
+          0.30035593220338985
+        ],
+        "max_occupancy": 0.3929491525423729,
+        "D_born": 0.17535780831303993,
+        "D_classical": 0.27252331865435964,
+        "markov_score": 0.17998652872636886,
+        "mean_norm_z": 1.301219274728721
+      },
+      {
+        "variant": "R-CATGEN",
+        "frame": 93,
+        "g": 0.9,
+        "degenerate": false,
+        "occupancies": [
+          0.4006779661016949,
+          0.306,
+          0.2933220338983051
+        ],
+        "max_occupancy": 0.4006779661016949,
+        "D_born": 0.17274843368095816,
+        "D_classical": 0.27290496697158384,
+        "markov_score": 0.16167804147417147,
+        "mean_norm_z": 1.306221733793675
+      },
+      {
+        "variant": "R-CATGEN",
+        "frame": 93,
+        "g": 1.0,
+        "degenerate": false,
+        "occupancies": [
+          0.4079491525423729,
+          0.30647457627118646,
+          0.2855762711864407
+        ],
+        "max_occupancy": 0.4079491525423729,
+        "D_born": 0.1818707551727744,
+        "D_classical": 0.26231562769713423,
+        "markov_score": 0.14235553288672737,
+        "mean_norm_z": 1.307527131598687
+      },
+      {
+        "variant": "R-CATGEN",
+        "frame": 93,
+        "g": 1.15,
+        "degenerate": false,
+        "occupancies": [
+          0.4138135593220339,
+          0.31866101694915255,
+          0.26752542372881355
+        ],
+        "max_occupancy": 0.4138135593220339,
+        "D_born": 0.18378915358779133,
+        "D_classical": 0.23631672800106046,
+        "markov_score": 0.11047993088489529,
+        "mean_norm_z": 1.3079065616617873
+      },
+      {
+        "variant": "R-CATGEN",
+        "frame": 201,
+        "g": 0.2,
+        "degenerate": false,
+        "occupancies": [
+          0.3705254237288136,
+          0.30159322033898306,
+          0.3278813559322034
+        ],
+        "max_occupancy": 0.3705254237288136,
+        "D_born": 0.16594608081634982,
+        "D_classical": 0.8630999213217938,
+        "markov_score": 0.22779088010411408,
+        "mean_norm_z": 1.3121190991322091
+      },
+      {
+        "variant": "R-CATGEN",
+        "frame": 201,
+        "g": 0.35,
+        "degenerate": false,
+        "occupancies": [
+          0.35277966101694913,
+          0.30822033898305085,
+          0.339
+        ],
+        "max_occupancy": 0.35277966101694913,
+        "D_born": 0.18010343580704485,
+        "D_classical": 0.8621391256530108,
+        "markov_score": 0.2037193044754812,
+        "mean_norm_z": 1.3190543132188426
+      },
+      {
+        "variant": "R-CATGEN",
+        "frame": 201,
+        "g": 0.5,
+        "degenerate": false,
+        "occupancies": [
+          0.3495762711864407,
+          0.30222033898305084,
+          0.34820338983050847
+        ],
+        "max_occupancy": 0.3495762711864407,
+        "D_born": 0.1978551781108709,
+        "D_classical": 0.8526723122651562,
+        "markov_score": 0.17262707811062913,
+        "mean_norm_z": 1.315200090342263
+      },
+      {
+        "variant": "R-CATGEN",
+        "frame": 201,
+        "g": 0.65,
+        "degenerate": false,
+        "occupancies": [
+          0.3595593220338983,
+          0.2905593220338983,
+          0.3498813559322034
+        ],
+        "max_occupancy": 0.3595593220338983,
+        "D_born": 0.2184484888247384,
+        "D_classical": 0.8332847226273115,
+        "markov_score": 0.13837654918242387,
+        "mean_norm_z": 1.3185168782390937
+      },
+      {
+        "variant": "R-CATGEN",
+        "frame": 201,
+        "g": 0.7853981634,
+        "degenerate": false,
+        "occupancies": [
+          0.3743220338983051,
+          0.28335593220338984,
+          0.34232203389830507
+        ],
+        "max_occupancy": 0.3743220338983051,
+        "D_born": 0.23474012341464917,
+        "D_classical": 0.8123467129269606,
+        "markov_score": 0.12215165851564021,
+        "mean_norm_z": 1.3156957517153194
+      },
+      {
+        "variant": "R-CATGEN",
+        "frame": 201,
+        "g": 0.9,
+        "degenerate": false,
+        "occupancies": [
+          0.38405084745762713,
+          0.2843389830508475,
+          0.33161016949152544
+        ],
+        "max_occupancy": 0.38405084745762713,
+        "D_born": 0.2505804465924525,
+        "D_classical": 0.7951117734724292,
+        "markov_score": 0.11130319502366728,
+        "mean_norm_z": 1.3092006210753724
+      },
+      {
+        "variant": "R-CATGEN",
+        "frame": 201,
+        "g": 1.0,
+        "degenerate": false,
+        "occupancies": [
+          0.3938813559322034,
+          0.2856949152542373,
+          0.32042372881355935
+        ],
+        "max_occupancy": 0.3938813559322034,
+        "D_born": 0.2574260716551751,
+        "D_classical": 0.7811331948976565,
+        "markov_score": 0.09078356821804748,
+        "mean_norm_z": 1.3006018987632786
+      },
+      {
+        "variant": "R-CATGEN",
+        "frame": 201,
+        "g": 1.15,
+        "degenerate": false,
+        "occupancies": [
+          0.4101694915254237,
+          0.2881864406779661,
+          0.3016440677966102
+        ],
+        "max_occupancy": 0.4101694915254237,
+        "D_born": 0.2568223176724043,
+        "D_classical": 0.7648511939771792,
+        "markov_score": 0.05947707677779837,
+        "mean_norm_z": 1.2861655142727808
+      }
+    ],
+    "freeze_table": [
+      {
+        "variant": "R-QP3",
+        "frame": 91,
+        "freeze_g": null
+      },
+      {
+        "variant": "R-QP3",
+        "frame": 93,
+        "freeze_g": 1.0
+      },
+      {
+        "variant": "R-QP3",
+        "frame": 201,
+        "freeze_g": 0.5
+      },
+      {
+        "variant": "R-QPGEN",
+        "frame": 91,
+        "freeze_g": null
+      },
+      {
+        "variant": "R-QPGEN",
+        "frame": 93,
+        "freeze_g": 0.2
+      },
+      {
+        "variant": "R-QPGEN",
+        "frame": 201,
+        "freeze_g": null
+      },
+      {
+        "variant": "R-CATGEN",
+        "frame": 91,
+        "freeze_g": null
+      },
+      {
+        "variant": "R-CATGEN",
+        "frame": 93,
+        "freeze_g": null
+      },
+      {
+        "variant": "R-CATGEN",
+        "frame": 201,
+        "freeze_g": null
+      }
+    ]
+  },
+  "stageC": {
+    "per_frame_argmin": [
+      {
+        "variant": "R-QP3",
+        "frame": 91,
+        "g_star": 1.0,
+        "D_born_star": 0.09470498325387856,
+        "markov_star": 0.19281020551676598
+      },
+      {
+        "variant": "R-QP3",
+        "frame": 93,
+        "g_star": 0.9,
+        "D_born_star": 0.06650689257958686,
+        "markov_star": 0.2457357276997295
+      },
+      {
+        "variant": "R-QP3",
+        "frame": 201,
+        "g_star": 0.9,
+        "D_born_star": 0.15587858034031227,
+        "markov_star": 0.3646612874976314
+      },
+      {
+        "variant": "R-QPGEN",
+        "frame": 91,
+        "g_star": 0.7853981634,
+        "D_born_star": 0.07281944015126345,
+        "markov_star": 0.32285175185623805
+      },
+      {
+        "variant": "R-QPGEN",
+        "frame": 93,
+        "g_star": 1.15,
+        "D_born_star": 0.06083315672988661,
+        "markov_star": 0.3187007123563046
+      },
+      {
+        "variant": "R-QPGEN",
+        "frame": 201,
+        "g_star": 0.35,
+        "D_born_star": 0.17665786544040124,
+        "markov_star": 0.4353582136133054
+      },
+      {
+        "variant": "R-CATGEN",
+        "frame": 91,
+        "g_star": 0.5,
+        "D_born_star": 0.11163074276131396,
+        "markov_star": 0.3020660950813203
+      },
+      {
+        "variant": "R-CATGEN",
+        "frame": 93,
+        "g_star": 0.2,
+        "D_born_star": 0.14510892672403317,
+        "markov_star": 0.31054224650731754
+      },
+      {
+        "variant": "R-CATGEN",
+        "frame": 201,
+        "g_star": 0.2,
+        "D_born_star": 0.16594608081634982,
+        "markov_star": 0.22779088010411408
+      }
+    ],
+    "per_variant": [
+      {
+        "variant": "R-QP3",
+        "D_med_star": 0.09470498325387856,
+        "M_med_star": 0.2457357276997295,
+        "n_frames_nondegenerate_at_gstar": 3
+      },
+      {
+        "variant": "R-QPGEN",
+        "D_med_star": 0.07281944015126345,
+        "M_med_star": 0.32285175185623805,
+        "n_frames_nondegenerate_at_gstar": 3
+      },
+      {
+        "variant": "R-CATGEN",
+        "D_med_star": 0.14510892672403317,
+        "M_med_star": 0.3020660950813203,
+        "n_frames_nondegenerate_at_gstar": 3
+      }
+    ]
+  },
+  "stageD": {
+    "attacks": [
+      {
+        "variant": "R-QP3",
+        "g": 1.0,
+        "r2": -0.001706610737856995,
+        "n_samples": 18859
+      },
+      {
+        "variant": "R-QPGEN",
+        "g": 0.7853981634,
+        "r2": 0.12125472513600041,
+        "n_samples": 19683
+      },
+      {
+        "variant": "R-CATGEN",
+        "g": 0.5,
+        "r2": 0.002976706969792714,
+        "n_samples": 19251
+      }
+    ]
+  },
+  "verdict": "MECHANISM-FLOOR",
+  "verdict_reason": "No bucket matched exactly. R-QP3 (D_med*=0.0947) and R-QPGEN (D_med*=0.0728) plateau within MECHANISM-FLOOR's [0.06,0.12] band; R-CATGEN (D_med*=0.1451) falls just outside it, driven by frame93/201 argmin sitting at the grid's lowest tested g=0.20 - the true CATGEN kernel optimum may lie below the grid floor, unexplored. Reported as the closest bucket. Important caveat (see lab-report-94.md 'anti-correlation finding'): for all 3 R-CATGEN frames, markov_score is still monotonically decreasing at the grid's top edge (g=1.15, markov down to 0.060-0.115, better than any other variant's minimum) while D_born is best at low g - the two optima sit at opposite ends of the tested grid, so the frozen D_born-argmin decision rule understates R-CATGEN's markov-axis performance. H-mechanism is well-supported for the kernel residual; H-reservoir is not ruled out for the markov residual.",
+  "leakage_audit": {
+    "wrote_outside_lab_folder": false,
+    "fold_formula_modified": false,
+    "born_draws_inside_world": false,
+    "posthoc_threshold_change": false,
+    "reimplemented_imported_functions": false
+  }
+}

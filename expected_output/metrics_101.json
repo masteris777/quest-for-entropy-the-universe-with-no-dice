@@ -1,0 +1,569 @@
+{
+  "lab": 101,
+  "stream": "cryptographic-substrate",
+  "kind": "hardened-simulation",
+  "serves_node": "born_rule_emergence",
+  "stageA": {
+    "machinery_regression": {
+      "mborn_max_dev": 0.0,
+      "j_frame91_dev": 0.0,
+      "pass": true
+    },
+    "pool": {
+      "integers_match_100v2": true,
+      "max_ks": 0.0008532927527358236,
+      "max_corr": 0.008047449803159032,
+      "pass": true
+    },
+    "optimizer_regression": {
+      "frame91_heldout": 0.0061683522646848385,
+      "lab99_anchor": 0.0071963522646848604,
+      "pass": true
+    },
+    "calibration": {
+      "markov_floors_by_cell": {
+        "0": 0.003022843044838741,
+        "1": 0.0023726095525009316,
+        "2": 0.0043994828016140075,
+        "3": 0.007466255983014203,
+        "4": 0.00673087002621707,
+        "5": 0.0072001196548980295
+      },
+      "kernel_max_dev": 0.006556359611424322,
+      "pass": true
+    },
+    "roundtrip_w2_max_err": 1.0235750533041806e-15,
+    "pass": true
+  },
+  "stageB": [
+    {
+      "cell": [
+        1,
+        7
+      ],
+      "theta": [
+        1.498893484458475,
+        1.1799740890630455,
+        0.6151488086949579,
+        0.7220789772116445,
+        0.5926944572724588,
+        0.7665502613716709
+      ],
+      "heldout_floor": 0.010599224554161898,
+      "D_born": 0.010156831033737636,
+      "markov_score": 0.004782476742076519,
+      "J": 0.010156831033737636,
+      "occupancies": [
+        0.32687394957983196,
+        0.34705042016806725,
+        0.32607563025210085
+      ],
+      "degenerate": false
+    },
+    {
+      "cell": [
+        1,
+        42
+      ],
+      "theta": [
+        1.1565747449569375,
+        0.2978091737662334,
+        0.4729478990804642,
+        0.6295352053170413,
+        0.4766234082478249,
+        0.5431593089295017
+      ],
+      "heldout_floor": 0.008711019321714822,
+      "D_born": 0.010590441932224692,
+      "markov_score": 0.01501096369558974,
+      "J": 0.01501096369558974,
+      "occupancies": [
+        0.32223529411764706,
+        0.32489915966386557,
+        0.35286554621848737
+      ],
+      "degenerate": false
+    },
+    {
+      "cell": [
+        1,
+        555
+      ],
+      "theta": [
+        1.1906489742035586,
+        0.006938907354922464,
+        0.5039768851238065,
+        0.7999928103241114,
+        0.4891035591578696,
+        0.6533018041716923
+      ],
+      "heldout_floor": 0.013442433173930544,
+      "D_born": 0.013174214824767674,
+      "markov_score": 0.0073939940378559554,
+      "J": 0.013174214824767674,
+      "occupancies": [
+        0.31576470588235295,
+        0.34330252100840336,
+        0.3409327731092437
+      ],
+      "degenerate": false
+    }
+  ],
+  "stageC": [
+    {
+      "cell": [
+        2,
+        11
+      ],
+      "theta": [
+        1.4953468374660237,
+        0.15459708126494953,
+        0.49618896299434306,
+        1.491270072498005,
+        0.8570074038728124,
+        0.5559367031973128
+      ],
+      "heldout_floor": 0.0016447005467152605,
+      "D_born": 0.004107630566839132,
+      "markov_score": 0.012623479545217642,
+      "J": 0.012623479545217642,
+      "occupancies": [
+        0.32989915966386557,
+        0.34063025210084036,
+        0.3294705882352941
+      ],
+      "degenerate": false
+    },
+    {
+      "cell": [
+        2,
+        17
+      ],
+      "theta": [
+        1.3358351337469396,
+        0.6339117305266648,
+        0.4527247774833648,
+        1.1361849765020815,
+        0.5272725237400504,
+        1.000545669399569
+      ],
+      "heldout_floor": 0.0011508894488720545,
+      "D_born": 0.00194779865192953,
+      "markov_score": 0.006849890524250224,
+      "J": 0.006849890524250224,
+      "occupancies": [
+        0.3371260504201681,
+        0.3305546218487395,
+        0.33231932773109246
+      ],
+      "degenerate": false
+    },
+    {
+      "cell": [
+        2,
+        23
+      ],
+      "theta": [
+        1.4965296624974083,
+        0.4493387976377459,
+        0.644843943998534,
+        0.9313782769417704,
+        0.5447290639023787,
+        1.3176009693727733
+      ],
+      "heldout_floor": 0.0027873516083525207,
+      "D_born": 0.002142503516042178,
+      "markov_score": 0.014780934944401802,
+      "J": 0.014780934944401802,
+      "occupancies": [
+        0.3331512605042017,
+        0.3393193277310924,
+        0.3275294117647059
+      ],
+      "degenerate": false
+    }
+  ],
+  "stageD": {
+    "vantage": [
+      {
+        "cell": [
+          1,
+          7
+        ],
+        "acc_full": 1.0,
+        "acc_records": 0.7086354317715886,
+        "records_ceiling": 0.7059045130654705,
+        "pass": true
+      },
+      {
+        "cell": [
+          2,
+          11
+        ],
+        "acc_full": 1.0,
+        "acc_records": 0.9257962898144907,
+        "records_ceiling": 0.9283269910863192,
+        "pass": true
+      }
+    ],
+    "ridge": [
+      {
+        "cell": [
+          1,
+          7
+        ],
+        "r2": -0.0008088969244674227,
+        "n_samples": 38898
+      },
+      {
+        "cell": [
+          1,
+          42
+        ],
+        "r2": -0.0005571746935086053,
+        "n_samples": 38346
+      },
+      {
+        "cell": [
+          1,
+          555
+        ],
+        "r2": -0.000976305414706391,
+        "n_samples": 37576
+      },
+      {
+        "cell": [
+          2,
+          11
+        ],
+        "r2": -0.00031636194561240893,
+        "n_samples": 39258
+      },
+      {
+        "cell": [
+          2,
+          17
+        ],
+        "r2": -0.0011607472814412212,
+        "n_samples": 40118
+      },
+      {
+        "cell": [
+          2,
+          23
+        ],
+        "r2": -0.0008988354015666555,
+        "n_samples": 39645
+      }
+    ]
+  },
+  "stageE": {
+    "bridge_mc": [
+      {
+        "cell": [
+          1,
+          7
+        ],
+        "J_mc": 0.015548719062818548,
+        "J_main": 0.010592105226866974,
+        "delta": 0.004956613835951574,
+        "pass": true
+      },
+      {
+        "cell": [
+          1,
+          42
+        ],
+        "J_mc": 0.012535209193794347,
+        "J_main": 0.01887922337830203,
+        "delta": 0.006344014184507682,
+        "pass": true
+      },
+      {
+        "cell": [
+          1,
+          555
+        ],
+        "J_mc": 0.014865080069465898,
+        "J_main": 0.0139116751770893,
+        "delta": 0.0009534048923765977,
+        "pass": true
+      },
+      {
+        "cell": [
+          2,
+          11
+        ],
+        "J_mc": 0.01270263076324308,
+        "J_main": 0.013203307488147131,
+        "delta": 0.000500676724904052,
+        "pass": true
+      },
+      {
+        "cell": [
+          2,
+          17
+        ],
+        "J_mc": 0.0068887891082275166,
+        "J_main": 0.008352857305478523,
+        "delta": 0.0014640681972510061,
+        "pass": true
+      },
+      {
+        "cell": [
+          2,
+          23
+        ],
+        "J_mc": 0.008804191897950064,
+        "J_main": 0.01232608308845104,
+        "delta": 0.0035218911905009753,
+        "pass": true
+      }
+    ],
+    "controls": [
+      {
+        "cell": [
+          1,
+          7
+        ],
+        "control": "C-passive",
+        "value": 0.9641687038391566,
+        "bar": 0.3,
+        "separates": true
+      },
+      {
+        "cell": [
+          1,
+          7
+        ],
+        "control": "C-isotropic",
+        "value": 0.5411320865823223,
+        "bar": 0.06,
+        "separates": true
+      },
+      {
+        "cell": [
+          1,
+          7
+        ],
+        "control": "C-shuffled",
+        "value": 0.7936879005905342,
+        "bar": 0.06,
+        "separates": true
+      },
+      {
+        "cell": [
+          1,
+          42
+        ],
+        "control": "C-passive",
+        "value": 0.29804747347145133,
+        "bar": 0.3,
+        "separates": false
+      },
+      {
+        "cell": [
+          1,
+          42
+        ],
+        "control": "C-isotropic",
+        "value": 0.4091760069727116,
+        "bar": 0.06,
+        "separates": true
+      },
+      {
+        "cell": [
+          1,
+          42
+        ],
+        "control": "C-shuffled",
+        "value": 0.5329824478868194,
+        "bar": 0.06,
+        "separates": true
+      },
+      {
+        "cell": [
+          1,
+          555
+        ],
+        "control": "C-passive",
+        "value": 0.3782995035546031,
+        "bar": 0.3,
+        "separates": true
+      },
+      {
+        "cell": [
+          1,
+          555
+        ],
+        "control": "C-isotropic",
+        "value": 0.41868202294040346,
+        "bar": 0.06,
+        "separates": true
+      },
+      {
+        "cell": [
+          1,
+          555
+        ],
+        "control": "C-shuffled",
+        "value": 0.5166037892564425,
+        "bar": 0.06,
+        "separates": true
+      },
+      {
+        "cell": [
+          2,
+          11
+        ],
+        "control": "C-passive",
+        "value": 0.3535786445448271,
+        "bar": 0.3,
+        "separates": true
+      },
+      {
+        "cell": [
+          2,
+          11
+        ],
+        "control": "C-isotropic",
+        "value": 0.6607938382277223,
+        "bar": 0.06,
+        "separates": true
+      },
+      {
+        "cell": [
+          2,
+          11
+        ],
+        "control": "C-shuffled",
+        "value": 0.9532923690642721,
+        "bar": 0.06,
+        "separates": true
+      },
+      {
+        "cell": [
+          2,
+          17
+        ],
+        "control": "C-passive",
+        "value": 0.33429209090949413,
+        "bar": 0.3,
+        "separates": true
+      },
+      {
+        "cell": [
+          2,
+          17
+        ],
+        "control": "C-isotropic",
+        "value": 0.6367869965216597,
+        "bar": 0.06,
+        "separates": true
+      },
+      {
+        "cell": [
+          2,
+          17
+        ],
+        "control": "C-shuffled",
+        "value": 0.9294033511686767,
+        "bar": 0.06,
+        "separates": true
+      },
+      {
+        "cell": [
+          2,
+          23
+        ],
+        "control": "C-passive",
+        "value": 0.19933010633068374,
+        "bar": 0.3,
+        "separates": false
+      },
+      {
+        "cell": [
+          2,
+          23
+        ],
+        "control": "C-isotropic",
+        "value": 0.6515895882923167,
+        "bar": 0.06,
+        "separates": true
+      },
+      {
+        "cell": [
+          2,
+          23
+        ],
+        "control": "C-shuffled",
+        "value": 0.9451334893967178,
+        "bar": 0.06,
+        "separates": true
+      }
+    ]
+  },
+  "stageF": {
+    "init_sensitivity": [
+      {
+        "inits": [
+          1.7,
+          0.53,
+          0.29
+        ],
+        "J": 0.010542929926493767,
+        "delta_vs_base": 0.0003860988927561308
+      },
+      {
+        "inits": [
+          0.4,
+          0.11,
+          0.23
+        ],
+        "J": 0.011307693549712287,
+        "delta_vs_base": 0.001150862515974651
+      }
+    ],
+    "autocorr": {
+      "max_interleaved": 0.29584370748907507,
+      "max_pergen": 0.9983967975749537
+    },
+    "markov_to_floor_ratios": {
+      "0": 1.5821121610141848,
+      "1": 6.326773690920578,
+      "2": 1.6806507426607902,
+      "3": 1.6907375763617223,
+      "4": 1.0176827806167053,
+      "5": 2.0528735150042636
+    }
+  },
+  "stageG": {
+    "pairing": {
+      "unengineered_arc_best": [
+        0.0808,
+        0.1232,
+        0.1339
+      ],
+      "engineered_J_range": [
+        0.006849890524250224,
+        0.01501096369558974
+      ]
+    }
+  },
+  "summary": {
+    "n_new_cells_under_bar": 6,
+    "n_controls_separating": 16,
+    "n_bridge_pass": 6
+  },
+  "verdict": "OTHER",
+  "verdict_reason": "No ladder rule matched exactly: n_new_cells_under_bar=6/6, n_controls_separating=16/18, n_bridge_pass=6/6, vantage_pass=True, init_robust=True.",
+  "leakage_audit": {
+    "wrote_outside_lab_folder": false,
+    "theta_reused_across_cells": false,
+    "pool_modified": false,
+    "random_draws_inside_world": false,
+    "emergence_language_used": false,
+    "posthoc_threshold_change": false,
+    "metrics_hand_edited": false
+  }
+}

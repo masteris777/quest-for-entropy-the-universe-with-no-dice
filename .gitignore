@@ -1,0 +1,13 @@
+# generated at run time (the certified copies live in expected_output/)
+__pycache__/
+machine/**/*.png
+machine/**/*.mp4
+machine/**/*.gif
+machine/**/*.npz
+machine/100_repreparation_fold/metrics_100_v2.json
+machine/101_existence_hardening/metrics_101.json
+machine/101_existence_hardening/metrics_101b.json
+machine/101_existence_hardening/metrics_101c.json
+machine/113_engineered_ensemble_twoslit/metrics_113.json
+machine/114_fingerprint_hardening/metrics_114.json
+machine/114_fingerprint_hardening/metrics_114b.json
