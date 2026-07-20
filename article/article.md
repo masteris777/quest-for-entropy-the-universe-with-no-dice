@@ -78,7 +78,7 @@ This corner of idea-space has serious residents. Full honesty about how this map
 
 Poke the machines yourself, right in the browser, no install: **[the cloud of maybes](https://quest-for-entropy.web.app/cloud-of-maybes)** and **[look, and the stripes die](https://quest-for-entropy.web.app/stripes-die)**. Both are pure client-side pages — every dot on your screen is computed live from the same deterministic rules described above.
 
-Everything counted in this post reproduces from a companion repository with one command: **github.com/masteris777/quest-for-entropy-the-universe-with-no-dice** — `python run_all.py` regenerates the counts, the stripes, and every figure. Archived, citable snapshot: DOI to-be-minted-at-publication (Zenodo).
+Everything counted in this post reproduces from a companion repository with one command: **[github.com/masteris777/quest-for-entropy-the-universe-with-no-dice](https://github.com/masteris777/quest-for-entropy-the-universe-with-no-dice)** — `python run_all.py` regenerates the counts, the stripes, and every figure. Archived, citable snapshot: DOI to-be-minted-at-publication (Zenodo).
 
 ## How this was made
 
