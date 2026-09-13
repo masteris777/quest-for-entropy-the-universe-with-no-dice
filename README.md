@@ -1,5 +1,7 @@
 # The Universe with No Dice — companion repository
 
+**Article:** [Quest for Entropy #1 — "The Universe with No Dice"](https://questforentropy.substack.com/p/the-universe-with-no-dice)
+
 Evidence repo for **Quest for Entropy #1: [“The Universe with No Dice”](article/article.md)** —
 a fully deterministic, classical model universe whose *counted* statistics land within
 about one percent of quantum mechanics’ squared law, draw soft-nulled two-slit stripes,
